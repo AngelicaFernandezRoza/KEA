@@ -29,7 +29,7 @@ Un **pool** define el rango de direcciones disponibles para asignar dinámicamen
   { "pool": "192.168.1.100 - 192.168.1.200" }
 ]
 
-# Diferencia entre Exclusiones y Reservas
+### Diferencia entre Exclusiones y Reservas
 
 ## 🔹 Exclusiones
 - Impiden que ciertas IP se asignen automáticamente a los clientes.  
@@ -39,3 +39,4 @@ Un **pool** define el rango de direcciones disponibles para asignar dinámicamen
 - Asignan una **IP específica** a un cliente concreto.  
 - Normalmente se identifican por la **dirección MAC** (en IPv4) o por el **DUID** (en IPv6).  
 - Garantizan que ese dispositivo siempre obtenga la misma IP.
+
