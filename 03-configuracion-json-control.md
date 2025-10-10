@@ -16,9 +16,10 @@ Para validar un archivo basta con introducir el comando **"jq empty archivo.json
 
 Cuando el **archivo JSON** es **valido** :
 
-![](KEA/img/Bien.png)
+![](img/Bien.png)
 
 Cuando el **archivo JSON NO** es **valido** :
 
-![](KEA/img/Mal.png)
+![](img/Mal.png)
+
 
