@@ -29,9 +29,6 @@ Un **pool** define el rango de direcciones disponibles para asignar dinámicamen
   { "pool": "192.168.1.100 - 192.168.1.200" }
 ]
 ```
-### Ejemplo completo
-
-![Ejemplo Completo](D:\Usuarios\asir2\Pictures\ejemplo completo.png)
 
 ---
 
@@ -46,6 +43,7 @@ Un **pool** define el rango de direcciones disponibles para asignar dinámicamen
 - Normalmente se identifican por la **dirección MAC** (en IPv4) o por el **DUID** (en IPv6).  
 - Garantizan que ese dispositivo siempre obtenga la misma IP.
 
+<img width="432" height="272" alt="tabla KEA" src="https://github.com/user-attachments/assets/e9fb568f-b778-452c-95fd-99bba8bc60ac" />
 
 
 
