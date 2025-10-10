@@ -67,9 +67,10 @@ El proyecto **ISC DHCP fue oficialmente descontinuado en 2022**, y el **ISC reco
 
 ---
 
-## 🏁 Conclusión
+##  Conclusión
 
 **Kea DHCP** representa la **nueva generación de servidores DHCP** desarrollada por ISC, enfocada en rendimiento, flexibilidad y automatización.  
 Con soporte moderno para **API, bases de datos y alta disponibilidad**, Kea se ha convertido en el **reemplazo recomendado** para entornos que antes utilizaban **ISC DHCP**.
+
 
 
