@@ -1,6 +1,6 @@
 # **Instalacion de KEA**
 Para la instalación de **KEA** en **Debian 13** hay que introducir el siguiente comando en la terminal:
-> apt -y install kea-dhcp4-server
+> **apt -y install kea-dhcp4-server**
 
 Al instalar **KEA** se creará el directorio:
 > **/etc/kea/**
@@ -21,4 +21,5 @@ Configuración de red (si se utiliza iKea en modo gestionado por **Netconf**).�
 > **kea-logging.conf**
 
 Configuración del sistema de logging (a veces integrado en los otros .conf).
+
 
