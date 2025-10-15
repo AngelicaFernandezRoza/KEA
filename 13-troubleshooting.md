@@ -1,12 +1,12 @@
 # Troubleshooting (Resolución de problemas)
 ## Los servicios de KEA se ejecutan como kea-dhcp4.service, kea-dhcp6.service o kea-ctrl-agent.service
 ### Para ver todos los registros de un servicio específico:
-    journalctl -u kea-dhcp4.service
+    journalctl -u kea-dhcp4-server.service
 ### Para los últimos registros (desde que arrancó el servicio):
-    journalctl -u kea-dhcp4.service –e
+    journalctl -u kea-dhcp4-server.service –e
 ### Ver logs en tiempo real
-    journalctl -u kea-dhcp4.service -f
-## Ejecutando *journalctl -u kea-dhcp4.service* tendríamos un log como este:
+    journalctl -u kea-dhcp4-server.service -f
+## Ejecutando *journalctl -u kea-dhcp4-server.service* tendríamos un log como este:
     oct 03 10:42:11 servidor kea-dhcp4[1532]: INFO  [kea-dhcp4.dhcpsrv/1532] DHCPSRV_OPEN_SOCKET opened socket: 192.168.1.1:67
     oct 03 10:42:11 servidor kea-dhcp4[1532]: INFO  [kea-dhcp4.dhcpsrv/1532] DHCPSRV_CFGMGR_ADD_SUBNET added subnet 192.168.1.0/24
     oct 03 10:42:12 servidor kea-dhcp4[1532]: WARN  [kea-dhcp4.dhcpsrv/1532] DHCPSRV_CLASS_UNKNOWN client class 'iot-devices' not defined
